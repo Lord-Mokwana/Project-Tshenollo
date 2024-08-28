@@ -1,0 +1,94 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    background-image: url('background.jpg.jpeg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the background image fixed during scroll */
+}
+
+/* Header styling */
+header {
+    background-color: rgba(0, 65, 128, 0); /* Semi-transparent dark blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0); /* White with 80% opacity for transparency */
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About section styling */
+#about {
+    display: flex;
+    flex-direction: column; /* Stack heading and content vertically */
+    align-items: flex-start;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start; /* Align text and image at the start */
+    gap: 20px; /* Space between image and text */
+    margin-top: 10px; /* Space between heading and content */
+}
+
+.profile-pic {
+    border-radius: 50%; /* Correct property for rounded image */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 65, 128, 0); /* Semi-transparent dark blue */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
